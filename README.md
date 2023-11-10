@@ -16,3 +16,6 @@ Its pretty simple
 - Count of blocks is writed at the beginning of this file (first 4 bytes)
 - It writes blocks of 4kb each
 - Each block contains a checksum of 16 bytes
+
+Btw, here is glitch space. Pretty cool picture. Not gonna lie.
+![The Glitch Space](https://github.com/maintenanceholder/ssdtoolpy/assets/150483268/630fa2d2-5a90-4b1e-a433-4c04a2052631)
