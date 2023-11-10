@@ -40,7 +40,12 @@ NAND = {
 with serial.Serial('/tty/usbserial-14A40', 230400, timeout=10) as s:
     #00 00 00 00 00 00
     #AE
-    
+
+    # sub_A4FEC
+    jumpdebug_c = "FF00FF00" + "00001CED" # 1C ED
+    selftest_c =  "FF00FF00" + "0000000C"
+    selfsmart_c = "FF00FF00" + "0000000D"
+
     s.write(bytes.fromhex("0000FF00"))
 
     if s.read(1).hex() == "ae": #jumped
