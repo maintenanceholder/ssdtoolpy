@@ -9,7 +9,7 @@ if not usb2(d).c_edit(0x1, 1):
 # reset if stucks
 
 # 🍄 Some story 🍄 #
-#recently i tried to open my 7z/rar/tgz archives but i got many CRC-errors. Half of my files are fucked, i like a naive fool trusted to chinese ssd and store all sensitive data on it. 
+#recently (~05.11.23) i tried to open my 7z/rar/tgz archives but i got many CRC-errors. Half of my files are fucked, i like a naive fool trusted to chinese ssd and store all sensitive data on it. 
 #Ever never trust your important data to SSDs with Yeestor and some SMI controllers (YS9082HP/YS9082HC/YS9083XT/YS9085N) (SM2258XT (PCIe)/SM2258)
 #i still continue to try pull my files, but internal nand corruption.., naaaaahh(((((
 
