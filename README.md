@@ -1,21 +1,4 @@
-# ssdtool
-- **Uses advanced scientific technology Govnocode(R) Ultra**
-- Simple utility to rough disk test
-- Its does not format selected disk. it can use the remaining disk space
-  
-![Moonisbeautifultoday](https://github.com/rldv1/ssdtoolpy/assets/118821863/185bbbed-ad36-46eb-9f70-44d7923d7b45)
+// File is broken.
 
-## HowTo
-- Download a ssdtool
-- Install psutil via `pip3 install psutil`
-- Run via `python3 ssdtool.py`
-
-## HowIt
-Its pretty simple
-- Creating `ssdtool` file in selected partition
-- Count of blocks is writed at the beginning of this file (first 4 bytes)
-- It writes blocks of 4kb each
-- Each block contains a checksum of 16 bytes
-
-Btw, here is glitch space. Pretty cool picture. Not gonna lie.
+`EYnh8m-/xx4@kAm=aMj6VS!aEY!LV3p*RU=c[DUh4S/h5cS]{+m=tas2efQbn!x}gmS5q@*nu++Z?Lue#Xi[YE@GYa+.;X4]o;rG*5o#KpQNo.USUo4-&&*AgBh{TjdoXR8+agAzTD[U2B!g3x?/-.GB[Y&Eih396Br9Td8yV8=HCjP$p2v:9A{@to=.Sb.6jBd@.m$fP+HGKr7&}{TSGhtq=!?gf9EzeX*c7x{Le;;TxKUQD2PLt=xcfJA{j!FszFnesPEMpcu#s%N5=6v+i%*5sdFS4c].yYze:$fh@kzvRS*U7?!z$utQZobB*/:X[crd=6pTq@.;5!h:JkJ!oJjuZ}-%%#tiAPszLXmcSdHxk/LG9c!+*SXL4qHDvqAJ9;$j;h7Dd9Pe[vsH!+b}M2Pcv2vaYK3i&=6tcx*or}7}q:8o5Ct@$[S$z/knM};N]b3+UH8[@sa#tC}c#e#77bN[?N.pa4Msb-a:#C9NA%X5%p+b/crK*?KS}J*hMpaHfBs/==brT!BkvR%%z.&diq*Nve$iSY9.7esSq69%ns]xHVAs#3bbjPm=9ss{M@hHA/r9HG:n4YN2TZbLtGLHM6$=qRfJRYMBNpT%&2gK?j-jCEPKftt&&7tLagAGopRx2g+oh{}]Xh*3Fifn+2?V}kJLdc`
 ![The Glitch Space](https://github.com/maintenanceholder/ssdtoolpy/assets/150483268/630fa2d2-5a90-4b1e-a433-4c04a2052631)
